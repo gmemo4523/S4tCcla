@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="../../type/dashboard/DetalleTransaccion.java"/>
+      <url path="../../type/dashboard/TrxCompleta.java"/>
+      <url path="../../type/dashboard/package-info.java"/>
+      <url path="../../type/dashboard/TRXDETREP.java"/>
+      <url path="../../type/dashboard/TRXREP.java"/>
+      <url path="WSDashboardPortBindingQSService.java"/>
+      <url path="../../type/dashboard/ObjectFactory.java"/>
+      <url path="../../type/dashboard/ServiceStatus.java"/>
+      <url path="Exception.java"/>
+      <url path="WSDashboardPortBindingQSPortClient.java"/>
+      <url path="../../type/dashboard/MPINI.java"/>
+      <url path="../../type/dashboard/Exception.java"/>
+      <url path="../../type/dashboard/MensajeriaTrxRS.java"/>
+      <url path="../../type/dashboard/DETALLE.java"/>
+      <url path="WSDashboardIF.java"/>
+      <url path="../../type/dashboard/LtrxRsp.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MTOM"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="cl.com.ccla.webservice.dashboard"/>
+            <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="cl.com.ccla.type.dashboard"/>
+            <value n="WSDL2JAVA_UNWRAP_PARAMETERS" v="false"/>
+         </hash>
+      </hash>
+      <list n="PROXY_CLIENTS">
+         <url path="WSDashboardPortBindingQSPortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="WSDashboardPortBindingQSPort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="false"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="cl.com.ccla.webservice.dashboard.WSDashboardIF"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="WSDashboardPortBindingQSPort"/>
+            <hash n="OPERATIONS">
+               <hash n="generarTRX">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="mensajeriaTrxRS">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="trxBanco">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="trxPeriodo">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="qa-osbweb" port="8005" path="/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="WSDashboardPortBindingQSService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://dashboard.ws.ccla.cl/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../CclaServices.jpr"/>
+      <url n="PROXY_WSDL_URL" protocol="http" host="qa-osbweb" port="8005" path="/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS" query="wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BD_DEFAULT_SOAP_STYLE" v="0"/>
+               <value n="BOUND_PORT_TYPE" v="{http://dashboard.ws.ccla.cl/}WSDashboardIF"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://dashboard.ws.ccla.cl/}WSDashboardPortBinding"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="0"/>
+                     <value n="BOUND_OPERATION" v="cl.com.ccla.type.dashboard.MPINI.generarTRX.cl.com.ccla.type.dashboard.TrxCompleta"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.com.ccla.type.dashboard.LtrxRsp.trxPeriodo.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.com.ccla.type.dashboard.LtrxRsp.trxBanco.long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.com.ccla.type.dashboard.MensajeriaTrxRS.mensajeriaTrxRS.cl.com.ccla.type.dashboard.TrxCompleta"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="4dbcb2f8-0165-1000-800a-ac1019132fa5"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="WSDashboardPortBindingQSPort"/>
+               <value n="PORT_BINDING_NAME" v="{http://dashboard.ws.ccla.cl/}WSDashboardPortBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.com.ccla.type.dashboard.MPINI.generarTRX.cl.com.ccla.type.dashboard.TrxCompleta"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.com.ccla.type.dashboard.LtrxRsp.trxPeriodo.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.com.ccla.type.dashboard.LtrxRsp.trxBanco.long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.com.ccla.type.dashboard.MensajeriaTrxRS.mensajeriaTrxRS.cl.com.ccla.type.dashboard.TrxCompleta"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="qa-osbweb" port="8005" path="/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+               <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="cl.com.ccla.webservice.dashboard"/>
+               <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="cl.com.ccla.type.dashboard"/>
+               <value n="WSDL2JAVA_UNWRAP_PARAMETERS" v="false"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://dashboard.ws.ccla.cl/}WSDashboardIF"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="cl.com.ccla.webservice.dashboard.WSDashboardIFImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="cl.com.ccla.webservice.dashboard.WSDashboardIF"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../../CclaServices.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://dashboard.ws.ccla.cl/"/>
+         <value n="WS_URI" v="WSDashboardPortBindingQSService"/>
+         <url n="WS_WSDL_FILE" protocol="http" host="qa-osbweb" port="8005" path="/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS" query="wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="WSDL_IS_LOCAL_COPY" v="false"/>
+   </hash>
+</jdevws:WebServiceProxy>

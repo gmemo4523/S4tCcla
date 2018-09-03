@@ -1,0 +1,16 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/Consulta/HistorialTurismo?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/Consulta/HistorialTurismo?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/HistorialPagoTurismoAgregar/EBS/HistorialPagoTurismoAgregarEBS?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/HistorialPagoTurismoAgregar/EBS/HistorialPagoTurismoAgregarEBS?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/WsDashboardNotificacion?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/WsDashboardNotificacion?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/WSDashboardMensajeria/WSDashboardServiceEBS?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/ConsultaDatosTurismo?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/ConsultaDatosTurismo?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/WSDashboardMensajeria/Proxy/WSDashboardService?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/WSDashboardMensajeria/Proxy/WSDashboardService?wsdl"/>
+  <system systemId="http://qa-osbweb:8005/Financiero/PagoElectronico/WsDashboardNotificacion/Proxy/WS_DSH_Notif_Prod?wsdl"
+          uri="http://qa-osbweb:8005/Financiero/PagoElectronico/WsDashboardNotificacion/Proxy/WS_DSH_Notif_Prod?wsdl"/>
+</catalog>
