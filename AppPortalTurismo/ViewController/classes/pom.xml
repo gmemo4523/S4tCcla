@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <!--The value of this element should be set before use-->
+  <groupId></groupId>
+  <!--The value of this element should be set before use-->
+  <artifactId></artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <!--It may be necessary to add the following to this POM file-->
+  <!--<packaging>[jar|war|ear|rar|pom|maven-plugin]</packaging>-->
+  <!--	<build>-->
+  <!--		<sourceDirectory>path/to/src</sourceDirectory>-->
+  <!--		<outputDirectory>path/to/output</outputDirectory>-->
+  <!--		<directory>path/to/output</outputDirectory>-->
+  <!--	</build>-->
+</project>
