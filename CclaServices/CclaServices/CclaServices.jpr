@@ -998,10 +998,6 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Gson-2.6.2.jar1"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="Gson-2.6.2.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -1058,16 +1054,7 @@
          <list n="libraryDefinitions">
             <hash>
                <list n="classPath">
-                  <url path="../../libjersey/gson-2.6.2.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Gson-2.6.2.jar1"/>
-               <value n="id" v="Gson-2.6.2.jar1"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/gson-2.6.2.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/gson-2.6.2.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Gson-2.6.2.jar"/>
@@ -1076,7 +1063,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jackson-core-asl-1.9.2.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jackson-core-asl-1.9.2.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jackson-core-asl-1.9.2.jar"/>
@@ -1085,7 +1072,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jackson-jaxrs-1.9.2.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jackson-jaxrs-1.9.2.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jackson-jaxrs-1.9.2.jar"/>
@@ -1094,7 +1081,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jackson-mapper-asl-1.9.2.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jackson-mapper-asl-1.9.2.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jackson-mapper-asl-1.9.2.jar"/>
@@ -1103,7 +1090,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jackson-xc-1.9.2.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jackson-xc-1.9.2.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jackson-xc-1.9.2.jar"/>
@@ -1112,7 +1099,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-archive-1.19.1.zip" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-archive-1.19.1.zip" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-archive-1.19.1.zip"/>
@@ -1121,7 +1108,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-client-1.19.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-client-1.19.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-client-1.19.1.jar"/>
@@ -1130,7 +1117,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-core-1.19.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-core-1.19.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-core-1.19.1.jar"/>
@@ -1139,7 +1126,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-json-1.19.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-json-1.19.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-json-1.19.1.jar"/>
@@ -1148,7 +1135,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-server-1.19.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-server-1.19.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-server-1.19.1.jar"/>
@@ -1157,7 +1144,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jersey-servlet-1.19.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jersey-servlet-1.19.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jersey-servlet-1.19.1.jar"/>
@@ -1166,7 +1153,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jettison-1.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jettison-1.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jettison-1.1.jar"/>
@@ -1175,7 +1162,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../../../../../JDeveloper/LIbJersey/jsr311-api-1.1.1.jar" jar-entry=""/>
+                  <url path="../../../../JDeveloper/LIbJersey/jsr311-api-1.1.1.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jsr311-api-1.1.1.jar"/>
@@ -1183,6 +1170,11 @@
                <value n="locked" v="true"/>
             </hash>
          </list>
+      </hash>
+      <hash n="jdkReference">
+         <url n="id" path="../../../../Users/GmemoM2/AppData/Roaming/JDeveloper/system11.1.1.9.40.66.73/o.jdeveloper/1.6.0_29.jdk"/>
+         <value n="isJDK" v="true"/>
+         <value n="jdkVersion" v="1.6.0_29"/>
       </hash>
       <list n="libraryReferences">
          <hash>
@@ -1195,10 +1187,6 @@
          </hash>
          <hash>
             <value n="id" v="TopLink"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Gson-2.6.2.jar1"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
